@@ -1,0 +1,48 @@
+@media screen and (max-width: 2560px) {
+  h2 {
+    margin: 10px 0;
+  }
+
+  .select {
+    color: var(--color-text);
+    padding: 5px;
+    font-size: 32px;
+    outline: none;
+    background-color: #485679;
+    border-radius: 10px;
+    font-family: "Architects Daughter", cursive;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 24px;
+  }
+
+  .select {
+    font-size: 24px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 22px;
+  }
+
+  .select {
+    padding: 4px;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h2 {
+    font-size: 18px;
+  }
+
+  .select {
+    padding: 3px;
+    font-size: 18px;
+  }
+}

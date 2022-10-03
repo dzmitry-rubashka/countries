@@ -1,0 +1,41 @@
+@media screen and (max-width: 2560px) {
+  .page {
+    font-size: 24px;
+    background-color: #485679;
+    margin: 0 10px;
+    width: 25%;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .routes {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    font-size: 20px;
+    width: 22%;
+    padding: 4px;
+    border-radius: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    font-size: 14px;
+    width: 18%;
+    border-radius: 7px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .page {
+    font-size: 12px;
+    width: 17%;
+    border-radius: 7px;
+  }
+}

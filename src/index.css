@@ -1,0 +1,67 @@
+@media screen and (max-width: 2560px) {
+  html.light {
+    --color-bg: #8b919b;
+    --color-text: #122752;
+    font-size: 24px;
+  }
+
+  html.dark {
+    --color-bg: rgba(13, 24, 38, 0.94);
+    --color-text: #8b919b;
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html.light {
+    font-size: 20px;
+  }
+
+  html.dark {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html.light {
+    font-size: 14px;
+  }
+
+  html.dark {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html.light {
+    font-size: 12px;
+  }
+
+  html.dark {
+    font-size: 12px;
+  }
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Architects Daughter", cursive;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  cursor: pointer;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.checkbox {
+  opacity: 0;
+}
+
+.labels {
+  position: absolute;
+  right: 15px;
+}
