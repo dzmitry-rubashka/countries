@@ -80,7 +80,7 @@ const ValidationPage = () => {
             name="currency"
             type="text"
             placeholder="Currency"
-            {...register("currency", { required: true, maxLength: 3 })}
+            {...register("currency", { required: true })}
             onChange={onChangeInput}
           />
           <button type="submit" className={styles.input}>
