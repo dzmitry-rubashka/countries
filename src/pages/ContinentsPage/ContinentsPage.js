@@ -54,7 +54,7 @@ const ContinentsPage = () => {
         ))}
       </select>
       {countries.map((country) => (
-        <div className={styles} key={country.name}>
+        <div key={country.name}>
           {country.name}
         </div>
       ))}
